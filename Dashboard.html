@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>H+ 后台主题UI框架 - Dashboard</title>
+    <title>51IDC|安畅 后台主题UI框架 - Dashboard</title>
     <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
     <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
 
@@ -26,15 +26,18 @@
 
 <body class="gray-bg">
     <div class="wrapper wrapper-content">
-      <div class="row">
+      <div class="row tooltip-demo">
             <div class="col-sm-3">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <span class="label label-success pull-right">钟</span>
-                        <h5>营销中心</h5>
+                        <!-- <span  class="label label-success pull-right">钟</span> -->
+                        <a href="yingxiaozhongxin.html"><h5>营销中心</h5></a>
                     </div>
                     <div class="ibox-content">
-                        <h1 class="no-margins" title="2016年执行中订单金额目标1.3亿">91,372,843</h1><h3 style="padding-left: 5px;" title="2016年累计收款金额目标1.03亿"> 20,085,260</h3>
+                        <h1 class="no-margins" id="yingxiaozhongxin"  data-toggle="tooltip" data-placement="top" data-original-title="2016年执行中订单额目标1.3亿" >91,372,843
+                        <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;width: 18px; line-height: 18px; font-size: 18px;"></i>
+                        </h1>
+                        <h3 style="padding-left: 5px;" data-toggle="tooltip" data-placement="bottom" data-original-title="2016年累计收款金额目标1.03亿"> 20,085,260</h3>
                         <div class="stat-percent font-bold text-success" title="收款率" >98% <i class="fa fa-bolt"></i>
                         </div>
                         <small>收款率</small>
@@ -44,12 +47,31 @@
             <div class="col-sm-3">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <span class="label label-info pull-right">刘</span>
+                        <!-- <span class="label label-info pull-right">刘</span> -->
                         <h5>海外事业</h5>
                     </div>
                     <div class="ibox-content">
-                        <h1 class="no-margins" title="2016年执行中订单金额">16,872,438 </h1><h3  style="padding-left: 5px;" title="2016年累计收款金额"> 1,899,351.03</h3>
+                        <h1 class="no-margins" title="2016年执行中订单金额">16,872,438 
+                        <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;width: 18px; line-height: 18px; font-size: 18px;"></i>
+                        </h1><h3  style="padding-left: 5px;" title="2016年累计收款金额"> 1,899,351.03</h3>
                         <div class="stat-percent font-bold text-info">20% <i class="fa fa-level-up"></i>
+                        </div>
+                        <small>收款率</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <!-- <span class="label label-danger pull-right">许</span> -->
+                        <h5>公司项目</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">180,600
+                        <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;width: 18px; line-height: 18px; font-size: 18px;"></i>
+                        </h1><h3 style="padding-left: 5px;"> 180,000</h3>
+                        <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i>
                         </div>
                         <small>收款率</small>
                     </div>
@@ -58,28 +80,16 @@
             <div class="col-sm-3">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <span class="label label-primary pull-right">冯</span>
+                        <span class="label label-primary pull-right">云</span>
                         <h5>安畅云</h5>
                     </div>
                     <div class="ibox-content">
-                        <h1 class="no-margins" title="2016年现金累计消费金额" >1,397,676</h1><h3  style="padding-left: 5px;"  title="2016年优惠金累计消费金额">899,351.03</h3>
+                        <h1 class="no-margins" title="2016年现金累计消费金额" >1,397,676
+                        <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;width: 18px; line-height: 18px; font-size: 18px;"></i>
+                        </h1><h3  style="padding-left: 5px;"  title="2016年优惠金累计消费金额">899,351.03</h3>
                         <div class="stat-percent font-bold text-navy">644% <i class="fa fa-level-up"></i>
                         </div>
                         <small>同期消费率</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title">
-                        <span class="label label-danger pull-right">许</span>
-                        <h5>技术服务</h5>
-                    </div>
-                    <div class="ibox-content">
-                        <h1 class="no-margins">80,600</h1><h3 style="padding-left: 5px;"> 4</h3>
-                        <div class="stat-percent font-bold text-danger">38% <i class="fa fa-level-down"></i>
-                        </div>
-                        <small>人为事故数</small>
                     </div>
                 </div>
             </div>
@@ -103,21 +113,23 @@
                                     <div class="flot-chart-content" id="flot-dashboard-chart"></div>
                                 </div>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-sm-3 tooltip-demo">
                                 <ul class="stat-list">
                                     <li style="margin-top: 15px">
-                                        <h2 class="no-margins">9,846万</h2>
+                                        <h2 class="no-margins" data-toggle="tooltip" data-placement="top" data-original-title="当前公司总执行中订单额">9,846万</h2>
                                         <small>订单总金额</small>
-                                        <div class="stat-percent"><i class="fa fa-level-up text-navy"></i>15000万 <!--<i class="fa fa-level-up text-navy"></i>-->
+                                        <div class="stat-percent" data-toggle="tooltip" data-placement="top" data-original-title="2016公司总执行中订单额目标1.5亿">
+                                        <i class="fa fa-level-up text-navy"></i>15000万 <!--<i class="fa fa-level-up text-navy"></i>-->
                                         </div>
-                                        <div class="progress progress-mini">
+                                        <div class="progress progress-mini " >
                                             <div style="width: 65.64%;" class="progress-bar"></div>
                                         </div>
                                     </li>
                                     <li style="margin-top: 30px;">
-                                        <h2 class="no-margins ">3,422万</h2>
+                                        <h2 class="no-margins " data-toggle="tooltip" data-placement="top" data-original-title="当前公司累计收款">3,422万</h2>
                                         <small>累计收款金额</small>
-                                        <div class="stat-percent"><i class="fa fa-level-up text-navy"></i>10000万 <!--<i class="fa fa-level-up text-navy"></i>-->
+                                        <div class="stat-percent"  data-toggle="tooltip" data-placement="top" data-original-title="2016公司总收款目标1.0亿">
+                                        <i class="fa fa-level-up text-navy"></i>10000万 <!--<i class="fa fa-level-up text-navy"></i>-->
                                         </div>
                                         <div class="progress progress-mini">
                                             <div style="width: 34.22%;" class="progress-bar"></div>
@@ -143,79 +155,14 @@
         </div>
 
 
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="ibox float-e-margins border-bottom">
-                    <div class="ibox-title">
-                        <h5>营销中心</h5>
-                        <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
-                        </div>
-                    </div>
-                   <!--  <div class="ibox-content ibox-heading">
-                        <h3><i class="fa fa-envelope-o"></i> 新消息</h3>
-                        <small><i class="fa fa-tim"></i> 您有22条未读消息</small>
-                    </div> -->
-                    <div class="ibox-content" style="display: none;">
-                        <table class="table table-hover no-margins">
-                                    <thead>
-                                        <tr>
-                                            <th>日期</th>
-                                            <th>订单额(万)</th>
-                                            <th>收款额(万)</th>
-                                            <th>收款率</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td><small>2016.1.1</small></td>
-                                            <td><span class="label label-primary">&yen;8344.15</span></td>
-                                            <td><span class="label label-warning">&yen;1028.42</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.2.1</small></td>
-                                            <td><span class="label label-primary">&yen;8765.63</span></td>
-                                            <td><span class="label label-warning">&yen;828.72</span></td>
-                                            <td class="text-danger"> <i class="fa fa-level-down"></i> 19%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.3.1</small></td>
-                                            <td><span class="label label-primary">&yen;8809.2</span></td>
-                                            <td><span class="label label-danger">&yen;469.43</span></td>
-                                            <td class="text-danger"> <i class="fa fa-level-down"></i> 43%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.4.1</small></td>
-                                            <td><span class="label label-primary">&yen;9217.09</span></td>
-                                            <td><span class="label label-primary">&yen;964.09</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 105%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.4.21</small></td>
-                                            <td><span class="label label-primary">&yen;9861.85</span></td>
-                                            <td><span class="label label-warning">&yen;600.95</span></td>
-                                            <td class="text-warning"> <i class="fa fa-bolt"></i> 37%</td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-8">
+        <div class="row tooltip-demo">
+            <div class="col-sm-12">
 
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>海外事业部</h5>
+                                <h5>技术服务部</h5>
                                 <div class="ibox-tools">
                                     <a class="collapse-link">
                                         <i class="fa fa-chevron-up"></i>
@@ -230,41 +177,30 @@
                                     <thead>
                                         <tr>
                                              <th>日期</th>
-                                            <th>订单额</th>
-                                            <th>收款额</th>
-                                            <th>收款率</th>
+                                            <th data-toggle="tooltip" data-placement="top" data-original-title="人为事故数量目标每月小于3个">人为事故数量</th>
+                                            <th data-toggle="tooltip" data-placement="top" data-original-title="工单满意度目标每月大于99.5%">工单满意度</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><small>2016.1</small></td>
-                                            <td><span class="label label-primary">1037.76万</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>0</td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 99.54%</td>
                                         </tr>
                                          <tr>
                                             <td><small>2016.2</small></td>
-                                            <td><span class="label label-primary">1089.23</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td><span class="label label-warning">2</span></td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 99.64%</td>
                                         </tr>
                                          <tr>
                                             <td><small>2016.3</small></td>
-                                            <td><span class="label label-primary">1117.85</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td><span class="label label-primary">1</span></td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 99.59%</td>
                                         </tr>
                                          <tr>
                                             <td><small>2016.4</small></td>
-                                            <td><span class="label label-primary">1255.11</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.5</small></td>
-                                            <td><span class="label label-primary">1281.74</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>0</td>
+                                            <td class="text-success"> <i class="fa fa-bolt"></i> 99.87%</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -274,7 +210,7 @@
                     <div class="col-sm-6">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>安畅云</h5>
+                                <h5>产品运营中心</h5>
                                 <div class="ibox-tools">
                                     <a class="collapse-link">
                                         <i class="fa fa-chevron-up"></i>
@@ -288,42 +224,46 @@
                                 <table class="table table-hover no-margins">
                                     <thead>
                                         <tr>
-                                             <th>日期</th>
-                                            <th>现金消费</th>
-                                            <th>优惠金消费</th>
-                                            <th>消费率</th>
+                                            <th>日期</th>
+                                            <th>机柜</th>
+                                            <th>整柜</th>
+                                            <th>散U</th>
+                                            <th>未使用</th>
+                                            <th>使用率</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><small>2016.1</small></td>
-                                            <td><span class="label label-primary">483.00</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>684</td>
+                                            <td>387</td>
+                                            <td>289</td>
+                                            <td>8</td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 98.83%</td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td><small>2016.2</small></td>
-                                            <td><span class="label label-primary">483.00</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>702</td>
+                                            <td>398</td>
+                                            <td>289</td>
+                                            <td>15</td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 97.86%</td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td><small>2016.3</small></td>
-                                            <td><span class="label label-primary">483.00</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>760</td>
+                                            <td>427</td>
+                                            <td>291</td>
+                                            <td>42</td>
+                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 94.47%</td>
                                         </tr>
-                                         <tr>
+                                        <tr>
                                             <td><small>2016.4</small></td>
-                                            <td><span class="label label-primary">483.00</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
-                                        </tr>
-                                         <tr>
-                                            <td><small>2016.5</small></td>
-                                            <td><span class="label label-primary">483.00</span></td>
-                                            <td><span class="label label-warning">483.00</span></td>
-                                            <td class="text-navy"> <i class="fa fa-level-up"></i> 24%</td>
+                                            <td>813</td>
+                                            <td>460</td>
+                                            <td>293</td>
+                                            <td>60</td>
+                                            <td class="text-success"> <i class="fa fa-bolt"></i> 92.62%</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -334,11 +274,12 @@
                 
             </div>
         </div>
-       <div class="row">
+        <!-- 事故记录 -->
+       <div class="row tooltip-demo">
                     <div class="col-sm-12">
                         <div class="ibox float-e-margins">
                             <div class="ibox-title">
-                                <h5>事故记录</h5>
+                                <h5>最近10条事故记录</h5>
                                 <div class="ibox-tools">
                                     <a class="collapse-link">
                                         <i class="fa fa-chevron-up"></i>
@@ -360,17 +301,18 @@
                                                     <th>类型</th>
                                                     <th class="text-center">线路</th>
                                                     <th class="text-center">日期</th>
-                                                    <th class="text-center">处理时长</th>
+                                                    <th class="text-center" data-toggle="tooltip" data-placement="top" data-original-title="处理时长{每超过10分钟，一种颜色标示，红色为最高级别},操作：链接到详情页面">处理时长/操作</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td class="text-center">1</td>
-                                                    <td>金海     </td>
+                                                    <td>长沙    </td>
                                                     <td>对内DDoS攻击    </td>
-                                                    <td class="text-center small">AC-BGP</td>
-                                                    <td class="text-center small">2016.03.15</td>
+                                                    <td class="text-center small">中国电信</td>
+                                                    <td class="text-center small">2016.04.22</td>
                                                     <td class="text-center"><span class="label label-primary">00:06:11</span>
+                                                    <a href="accidentReport.html"><i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i></a>
                                                     </td>
                                                 </tr>
                                                  <tr>
@@ -380,6 +322,7 @@
                                                     <td class="text-center small">中国电信</td>
                                                     <td class="text-center small">2016.03.15</td>
                                                     <td class="text-center"><span class="label label-warning">00:16:11</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                 
@@ -390,6 +333,7 @@
                                                     <td class="text-center small"></td>
                                                     <td class="text-center small">2016.03.18</td>
                                                     <td class="text-center"><span class="label label-warning">00:26:11</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -399,6 +343,7 @@
                                                     <td class="text-center small">中国电信</td>
                                                     <td class="text-center small">2016.04.20</td>
                                                     <td class="text-center"><span class="label label-danger">00:30:11</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -408,6 +353,7 @@
                                                     <td class="text-center small">中国电信</td>
                                                     <td class="text-center small">2016.04.19</td>
                                                     <td class="text-center"><span class="label label-primary">00:06:11</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -417,6 +363,7 @@
                                                     <td class="text-center small">中国电信,中国联通</td>
                                                     <td class="text-center small">2016.04.19</td>
                                                     <td class="text-center"><span class="label label-warning">00:30:11</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -426,6 +373,7 @@
                                                     <td class="text-center small">中国电信</td>
                                                     <td class="text-center small">2016.04.19</td>
                                                     <td class="text-center"><span class="label label-primary">00:03:23</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                  <tr>
@@ -435,6 +383,7 @@
                                                     <td class="text-center small">中国电信</td>
                                                     <td class="text-center small">2016.04.19</td>
                                                     <td class="text-center"><span class="label label-primary">00:03:23</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                  <tr>
@@ -444,15 +393,17 @@
                                                     <td class="text-center small">香港</td>
                                                     <td class="text-center small">2016.04.14</td>
                                                     <td class="text-center"><span class="label label-danger">06:15:23</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                                  <tr>
                                                     <td class="text-center"><i class="fa fa-user"></i>10</td>
                                                     <td>无锡    </td>
-                                                    <td>安畅网络故障</td>
+                                                    <td>人为误操作故障</td>
                                                     <td class="text-center small">MPLS</td>
                                                     <td class="text-center small">2016.04.10</td>
                                                     <td class="text-center"><span class="label label-danger">02:22:23</span>
+                                                    <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" data-original-title="查看详情"  style="cursor:pointer;"></i>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -485,7 +436,23 @@
     <script src="js/plugins/easypiechart/jquery.easypiechart.js"></script>
     <script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
     <script src="js/demo/sparkline-demo.min.js"></script>
+    
+    <script src="js/plugins/layer/layer.min.js"></script>
+    <script src="js/demo/layer-demo.min.js"></script>
+    
     <script>
+    
+    $('#yingxiaozhongxin').on('click', function(){
+        //iframe层-父子操作
+      layer.open({
+        type: 2,
+        title:'营销中心',
+        area: ['580px', '360px'],
+        fix: false, //不固定
+        maxmin: false,
+        content: '/yingxiaozhongxin.html'
+      });
+  });
     $(document).ready(
             function() {
                 $(".chart").easyPieChart({
